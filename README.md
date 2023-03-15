@@ -4,19 +4,19 @@ The California houses Price dataset is a popular dataset that contains informati
 
 In this analysis, we will explore the California houses Price dataset and perform various data cleaning and visualization techniques to better understand the relationships between the different variables in the dataset. We will also use different machine learning algorithms to build a predictive model that can accurately predict the median house value of a neighborhood.
 
-## Section 1: Data Check
+### Section 1: Data Check
 
 In the first section of our analysis, we will perform a data check on the California houses Price dataset. This will include checking the head of the dataset to get an idea of what the data looks like, checking the shape of the dataset to see how many rows and columns it contains, checking for null values, and describing the dataset.
 
-## Section 2: Impute Missing Values
+### Section 2: Impute Missing Values
 
 In the second section of our analysis, we will impute missing values in the California houses Price dataset using the K-Nearest Neighbors algorithm. This will help us to fill in any missing data that may be important for our predictive model.
 
-## Section 3: Data Visualization
+### Section 3: Data Visualization
 
 In the third section of our analysis, we will perform various data visualization techniques to better understand the relationships between the different variables in the dataset. This will include plotting histograms, correlation matrices, and scatter plots of all the variables in the dataset. We will also create maps of California to geographically visualize where each data point is located. Lastly, we will create box plots using the string column 'oceanProximity' to understand the relationship between ocean proximity and others variables.
 
-## Section 4: Building a Predictive Model
+### Section 4: Building a Predictive Model
 
 In the final section of our analysis, we will use different machine learning algorithms such as Linear Regression, Decision Tree, Random Forest, and Gradient Boosting to build a predictive model that can predict the median house value of a neighborhood. We will compare the performance of each algorithm using R2 and MSE parameters and determine which algorithm is the best for this particular dataset.
 
