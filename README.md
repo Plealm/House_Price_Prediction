@@ -66,19 +66,23 @@ Overall, the KNN algorithm was a useful tool for filling in missing values in th
 
 
 ## 3. Exploratory Data
+For the third part of our analysis, we will create visualizations to explore the California houses Price dataset. The visualizations will help us to understand the distribution of the data and identify any patterns or relationships between the variables.
 
-### Histograms
+First, we will plot histograms of each variable in the dataset using matplotlib. This will allow us to see the distribution of the data for each variable and identify any outliers or unusual values.
 
 <img src="https://user-images.githubusercontent.com/84750731/225171519-f944c8c1-ee29-4a9c-8f43-816407c284f9.png" width="700" height="500" />
 
-### Correlation Matrix
+
+Next, we will create a correlation matrix using seaborn. This will allow us to see the correlation between each variable in the dataset. We will use this information to identify any strong correlations that may exist between the variables.
 
 <img src="https://user-images.githubusercontent.com/84750731/225171517-d3991aea-749d-46a9-b17b-274da5b35193.png" width="700" height="500" />
 
-### Distributions and Relations between parameters
+After that, we will create an sns.pairplot() of all the variables in the dataset. This will allow us to see the relationship between each pair of variables in the dataset. We will use this information to identify any trends or patterns that may exist between the variables.
+
 <img src="https://user-images.githubusercontent.com/84750731/225171501-d45b0cfa-17e3-4363-b015-66990259546f.png" width="700" height="500" />
- 
-### Geographic location
+
+We will also plot the latitude and longitude of each data point on a map of California using basemap. This will allow us to see the geographic distribution of the data and identify any patterns or clusters that may exist.
+
 
 <p float="left">
   <img src="https://user-images.githubusercontent.com/84750731/225171503-178e3d9e-a1e0-46bf-ab77-9931d884aeca.png" width="400" height="400" />
@@ -99,7 +103,7 @@ Overall, the KNN algorithm was a useful tool for filling in missing values in th
   <img src="https://user-images.githubusercontent.com/84750731/225171514-d62b61c2-6dd5-437b-8bee-2efff1161b1e.png" width="400" height="400" />
 </p>
 
-### Ocean Proximity - Boxplots
+Finally, we will create boxplots of the 'medianHouseValue', 'meadianIncome' and 'Housingmedianage' column using the 'oceanProximity' column as a grouping variable. This will allow us to see the distribution of the median house value for each category of ocean proximity.
 
 <p float="left">
   <img src="https://user-images.githubusercontent.com/84750731/225171490-190fdfbd-3923-45b5-be1d-4834109c17d3.png" width="450" height="350" />
@@ -108,7 +112,9 @@ Overall, the KNN algorithm was a useful tool for filling in missing values in th
 <p float="left">
   <img src="https://user-images.githubusercontent.com/84750731/225171500-a5389795-eac4-40f4-b1e5-6522e30a5039.png" width="450" height="350" />
  </p>
- 
+
+Overall, these visualizations will provide us with a deeper understanding of the California houses Price dataset and help us to identify any relationships or patterns that may exist between the variables.
+
 
 
 ## 4.MODELS TO PREDICT MEDIAN HOUSE VALUE
