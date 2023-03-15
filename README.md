@@ -145,3 +145,5 @@ Overall, these visualizations will provide us with a deeper understanding of the
 ### Conclusion
 ![Screenshot from 2023-03-15 11-45-54](https://user-images.githubusercontent.com/84750731/225381123-966b4d31-2e65-4af6-b302-51db4eac46ff.png)
 
+The data was taken form [here](https://www.kaggle.com/datasets/camnugent/california-housing-prices?datasetId=5227&sortBy=voteCount) nad some ideas to develop this project were taken from [Amal Tanveer](https://medium.com/cs-334-data-science/predicting-housing-prices-in-california-331334f53ad7) and 
+[ANDREY SHTRAUSS](https://www.kaggle.com/code/shtrausslearning/bayesian-regression-house-price-prediction)
